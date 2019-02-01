@@ -13,7 +13,8 @@ def generate_picture():
 		temp = " ".join(line)
 		fout.write(temp)
 		line = []
-
+	fout.close()
+	
 generate_picture()
 
 
